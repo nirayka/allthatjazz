@@ -33,9 +33,9 @@ h3 {
 }
 p, a, ol, ul, table {
   font-family: 'Playfair Display', serif;
-  font-size: 18px;
+  font-size: medium;
   font-weight: 400;
-  line-height: 24px;
+
   color: #0B1C20;
 }
 img.float {
@@ -47,7 +47,21 @@ img.float {
   margin-left: auto;
   margin-right: auto;
 }
-.button {
+button {
+  text-decoration: none;
+  background-color: #B1CAA6;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #366147;
+  border-bottom: 1px solid #366147;
+  border-left: 1px solid #CCCCCC;
+  font-family: 'Forum', cursive;
+  font-size: large;
+  margin: 2%;
+}
+
+.navigationButton {
   text-decoration: none;
   background-color: #B1CAA6;
   color: #333333;
@@ -58,8 +72,9 @@ img.float {
   border-left: 1px solid #CCCCCC;
   font-family: 'Forum', cursive;
   font-size: 17px;
-  margin: 35px;
+  margin: 5%;
 }
+
 .album {
   margin-left: 150px;
   margin-right: 75px;
@@ -79,19 +94,6 @@ a:active {
 }
 p + ul, p + ol {
   list-style-position: inside;
-}
-button {
-  text-decoration: none;
-  background-color: #B1CAA6;
-  color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #366147;
-  border-bottom: 1px solid #366147;
-  border-left: 1px solid #CCCCCC;
-  font-family: 'Forum', cursive;
-  font-size: 17px;
-  margin: 2%;
 }
 
 .leadSheet {
