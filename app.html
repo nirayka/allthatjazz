@@ -37,13 +37,11 @@
             <col span="1" style="width:70%">
         </colgroup>
 
-        <p id="demo"></p>
-
         <tr>
             <th class="title">Genre</th>
             <th>
                 <form id="genreForm">
-                    <input type="radio" name="genre" value="Any">Any
+                    <input type="radio" name="genre" value="All">All
                     <input type="radio" name="genre" value="Ballad">Ballad
                     <input type="radio" name="genre" value="Bebop">Bebop
                     <input type="radio" name="genre" value="Blues">Blues
@@ -59,17 +57,19 @@
             <td class="title">Tempo</td>
             <td>
                 <form id="tempoForm">
-                    <input type="radio" name="tempo" value="Any">Any
+                    <input type="radio" name="tempo" value="All">All
                     <input type="radio" name="tempo" value="Slow">Slow/Ballad
                     <input type="radio" name="tempo" value="Medium">Medium
-                    <input type="radio" name="tempo" value="Any">Uptempo
+                    <input type="radio" name="tempo" value="Uptempo">Uptempo
                 </form>
             </td>
         </tr>
         <tr>
-            <td class="title">Key (if minor, refer to corresponding major key)</td>
+            <td class="title">Key (if minor, select corresponding major key)</td>
             <td>
                 <form id="keyForm">
+                    <input type="radio" name="key" value="All">All
+                    <br>
                     <input type="radio" name="key" value="C">C
                     <input type="radio" name="key" value="G">G
                     <input type="radio" name="key" value="D">D
@@ -92,36 +92,33 @@
             </td>
         </tr>
         <tr>
-            <td class="title">Key Signature</td>
+            <td class="title">Time Signature</td>
             <td>
                 <form id="timeSignature">
-                    <input type="radio" name="tempo" value="Any">Any
-                    <input type="radio" name="tempo" value="Slow">Slow/Ballad
-                    <input type="radio" name="tempo" value="Medium">Medium
-                    <input type="radio" name="tempo" value="Any">Uptempo
+                    <input type="radio" name="timeSignature" value="All">All
+                    <input type="radio" name="timeSignature" value="4over4">4/4
+                    <input type="radio" name="timeSignature" value="3over4">3/4
+                    <input type="radio" name="timeSignature" value="6over8">6/8
+                    <input type="radio" name="timeSignature" value="5over4">5/4
+                    <input type="radio" name="timeSignature" value="Other">Other
                 </form>
             </td>
         </tr>
     </table>
 
     <button id="getUserParameters">Submit</button>
-
-    <p id="demo2"></p>
-
-
-    <img class="genre tempo key">
+    <p id="printUserSelectedParameters"></p>
 
 
     <div id="allLeadSheets">
-        <img class=" " src="images/afternoonInParis.jpg">
-        <img src="images/aintMisbehavin.jpg">
-        <img src="images/alfie.jpg">
-        <img src="images/arentYouGladYoureYou.jpg">
-        <img src="images/aliceInWonderland.jpg">
+        <img class="leadSheet Swing Medium C 4over4" src="images/afternoonInParis.jpg">
+        <img class="leadSheet Swing Medium Eflat 4over4" src="images/aintMisbehavin.jpg">
+        <img class="leadSheet Swing Medium Eflat 4over4" src="images/aintThatAKickInTheHead.jpg">
+        <img class="leadSheet Bebop Uptempo Aflat 4over4" src="images/airegin.jpg">
+        <img class="leadSheet Ballad Slow C 4over4" src="images/alfie.jpg">
+        <img class="leadSheet Other Medium C 3over4" src="images/aliceInWonderland.jpg">
+        <img class="leadSheet visibilityCheck" src="images/aliceInWonderland.jpg">
     </div>
-
-
-
 
 <div>
     <footer>

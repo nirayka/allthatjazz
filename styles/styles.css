@@ -94,7 +94,7 @@ button {
   margin: 2%;
 }
 
-#allLeadSheets {
+.leadSheet {
     display: none;
 }
 
@@ -117,7 +117,6 @@ th {
 table {
     margin-left: auto;
     margin-right: auto;
-    padding: 
 }
 table, th, td {
   border: 1px solid black;
