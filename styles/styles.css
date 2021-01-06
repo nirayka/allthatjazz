@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Forum|Pompiere&display=swap');
+
+body {
+  background-color: #E8DEC5;
+  text-align: center;
+}
+* {
+  text align: center;
+}
+h1 {
+  color: #366147;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 24px;
+}
+h2 {
+  color: #416650;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 20px;
+}
+h3 {
+  color: #5C5555;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 17px;
+}
+p, a, ol, ul, table {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0B1C20;
+}
+img.float {
+  float: right;
+  margin-left: 75px;
+  margin-right: 150px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  text-decoration: none;
+  background-color: #B1CAA6;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #366147;
+  border-bottom: 1px solid #366147;
+  border-left: 1px solid #CCCCCC;
+  font-family: 'Forum', cursive;
+  font-size: 17px;
+  margin: 35px;
+}
+.album {
+  margin-left: 150px;
+  margin-right: 75px;
+}
+
+a:link {
+  color: #5C5555;
+}
+a:visited {
+  color: #366147;
+}
+a:hover {
+  color: #297575;
+}
+a:active {
+  color: #93AF8E;
+}
+p + ul, p + ol {
+  list-style-position: inside;
+}
+button {
+  text-decoration: none;
+  background-color: #B1CAA6;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #366147;
+  border-bottom: 1px solid #366147;
+  border-left: 1px solid #CCCCCC;
+  font-family: 'Forum', cursive;
+  font-size: 17px;
+  margin: 2%;
+}
+
+#allLeadSheets {
+    display: none;
+}
+
+#allLeadSheets img {
+    width: 70%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+th {
+    font-weight: normal;
+    width: 10%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}

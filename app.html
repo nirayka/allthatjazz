@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>untitled website</title>
+    <link rel="icon" href="images/head!.jpg">
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div>
+        <br>
+        <a href="index.html" class="button">HOME</a>
+        <a href="app.html" class="button">APP</a>
+        <a href="contribute.html" class="button">CONTRIBUTE</a>
+        <a href="about.html" class="button">ABOUT</a>
+    </div>
+
+    <br><br><br>
+
+    <div>
+    <header>
+        <h1></h1>
+        <h2></h2>
+        <h3></h3>
+    </header>
+    </div>
+
+    <button id="expandOrCollapseAll">expand/collapse all lead sheets</button>
+
+
+    <table style="width:80%">
+        <colgroup>
+            <col span="1" style="width:15%">
+            <col span="1" style="width:70%">
+        </colgroup>
+
+        <p id="demo"></p>
+
+        <tr>
+            <th class="title">Genre</th>
+            <th>
+                <form id="genreForm">
+                    <input type="radio" name="genre" value="Any">Any
+                    <input type="radio" name="genre" value="Ballad">Ballad
+                    <input type="radio" name="genre" value="Bebop">Bebop
+                    <input type="radio" name="genre" value="Blues">Blues
+                    <input type="radio" name="genre" value="Bossa">Bossa
+                    <input type="radio" name="genre" value="Funk">Funk
+                    <input type="radio" name="genre" value="Latin">Latin
+                    <input type="radio" name="genre" value="Swing">Swing
+                    <input type="radio" name="genre" value="Other">Other
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <td class="title">Tempo</td>
+            <td>
+                <form id="tempoForm">
+                    <input type="radio" name="tempo" value="Any">Any
+                    <input type="radio" name="tempo" value="Slow">Slow/Ballad
+                    <input type="radio" name="tempo" value="Medium">Medium
+                    <input type="radio" name="tempo" value="Any">Uptempo
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="title">Key (if minor, refer to corresponding major key)</td>
+            <td>
+                <form id="keyForm">
+                    <input type="radio" name="key" value="C">C
+                    <input type="radio" name="key" value="G">G
+                    <input type="radio" name="key" value="D">D
+                    <input type="radio" name="key" value="A">A
+                    <input type="radio" name="key" value="E">E
+                    <input type="radio" name="key" value="B">B
+                    <br>
+                    <input type="radio" name="key" value="Fsharp">F&#9839
+                    <input type="radio" name="key" value="Csharp">C&#9839
+                    <input type="radio" name="key" value="Gsharp">G&#9839
+                    <input type="radio" name="key" value="Dsharp">D&#9839
+                    <input type="radio" name="key" value="Asharp">A&#9839
+                    <br>
+                    <input type="radio" name="key" value="Bflat">B&#9837
+                    <input type="radio" name="key" value="Eflat">E&#9837
+                    <input type="radio" name="key" value="Aflat">A&#9837
+                    <input type="radio" name="key" value="Dflat">D&#9837
+                    <input type="radio" name="key" value="Gflat">G&#9837
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="title">Key Signature</td>
+            <td>
+                <form id="timeSignature">
+                    <input type="radio" name="tempo" value="Any">Any
+                    <input type="radio" name="tempo" value="Slow">Slow/Ballad
+                    <input type="radio" name="tempo" value="Medium">Medium
+                    <input type="radio" name="tempo" value="Any">Uptempo
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <button id="getUserParameters">Submit</button>
+
+    <p id="demo2"></p>
+
+
+    <img class="genre tempo key">
+
+
+    <div id="allLeadSheets">
+        <img class=" " src="images/afternoonInParis.jpg">
+        <img src="images/aintMisbehavin.jpg">
+        <img src="images/alfie.jpg">
+        <img src="images/arentYouGladYoureYou.jpg">
+        <img src="images/aliceInWonderland.jpg">
+    </div>
+
+
+
+
+<div>
+    <footer>
+        <p>Nirayka Monga &#169; 2021</p>
+    </footer>
+</div>
+</body>
+</html>
