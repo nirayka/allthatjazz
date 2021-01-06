@@ -12,6 +12,7 @@
   </component>
   <component name="ProjectId" id="1md90IcXo7Ol884CqgZV0zonaCH" />
   <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -42,13 +43,13 @@
       <screen x="0" y="0" width="1280" height="813" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.813@0.0.1280.813" timestamp="1609814381949" />
-    <state x="297" y="184" key="run.anything.popup" timestamp="1609868596374">
+    <state x="297" y="184" width="672" height="677" key="run.anything.popup" timestamp="1609955518939">
       <screen x="0" y="0" width="1280" height="813" />
     </state>
-    <state x="297" y="184" key="run.anything.popup/0.0.1280.813@0.0.1280.813" timestamp="1609868596374" />
-    <state x="494" y="134" width="672" height="678" key="search.everywhere.popup" timestamp="1609906710468">
+    <state x="297" y="184" width="672" height="677" key="run.anything.popup/0.0.1280.813@0.0.1280.813" timestamp="1609955518939" />
+    <state x="494" y="134" width="672" height="678" key="search.everywhere.popup" timestamp="1609956789705">
       <screen x="0" y="0" width="1280" height="813" />
     </state>
-    <state x="494" y="134" width="672" height="678" key="search.everywhere.popup/0.0.1280.813@0.0.1280.813" timestamp="1609906710468" />
+    <state x="494" y="134" width="672" height="678" key="search.everywhere.popup/0.0.1280.813@0.0.1280.813" timestamp="1609956789705" />
   </component>
 </project>
