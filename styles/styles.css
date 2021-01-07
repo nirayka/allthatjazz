@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Hairline&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:600&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Forum|Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&family=Quicksand:wght@300;500;600&display=swap');
+
+@font-face {
+    font-family: 'jazztextregular';
+    src: url('types/jazztext_regular-webfont.woff2') format('woff2'),
+         url('types/jazztext_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
   background-color: #E8DEC5;
@@ -12,30 +21,26 @@ body {
 }
 h1 {
   color: #366147;
-  font-family: 'Bungee Hairline', cursive;
-  font-size: 45px;
-  font-weight: 700;
-  line-height: 24px;
+  font-family: 'jazztextregular';
+  font-size: 500%;
 }
 h2 {
   color: #416650;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 32px;
+  font-size: 300%;
   font-weight: 700;
-  line-height: 20px;
 }
 h3 {
   color: #5C5555;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 22px;
+  font-size: 150%;
   font-weight: 700;
-  line-height: 17px;
 }
 p, a, ol, ul, table {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: medium;
   font-weight: 400;
-
+  font-size: 100%
   color: #0B1C20;
 }
 img.float {
@@ -56,7 +61,7 @@ button {
   border-right: 1px solid #366147;
   border-bottom: 1px solid #366147;
   border-left: 1px solid #CCCCCC;
-  font-family: 'Forum', cursive;
+  font-family: 'Rajdhani', sans-serif;
   font-size: large;
   margin: 2%;
 }
@@ -70,7 +75,21 @@ button {
   border-right: 1px solid #366147;
   border-bottom: 1px solid #366147;
   border-left: 1px solid #CCCCCC;
-  font-family: 'Forum', cursive;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 17px;
+  margin: 5%;
+}
+
+.currentPage {
+  text-decoration: none;
+  background-color: #333333;
+  color: #B1CAA6;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #366147;
+  border-bottom: 1px solid #366147;
+  border-left: 1px solid #CCCCCC;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 17px;
   margin: 5%;
 }

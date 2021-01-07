@@ -29,8 +29,6 @@ $(document).ready(function(){
             }
 
             // one option per category not working????
-
-
             if ((!$("input[name='genre']:checked").val()) || (!$("input[name='tempo']:checked").val()) || (!$("input[name='key']:checked").val()) || (!$("input[name='timeSignature']:checked").val())) {
                 $("#printUserSelectedParameters").html("Please select at least one option per category.");
             } else {
