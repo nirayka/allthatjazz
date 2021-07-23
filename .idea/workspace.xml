@@ -35,13 +35,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="91" y="28" key="new project wizard" timestamp="1610216126670">
+    <state x="617" y="191" key="run.anything.popup" timestamp="1627054597453">
       <screen x="0" y="0" width="1280" height="813" />
     </state>
-    <state x="91" y="28" key="new project wizard/0.0.1280.813@0.0.1280.813" timestamp="1610216126670" />
-    <state x="297" y="184" key="run.anything.popup" timestamp="1609984032346">
-      <screen x="0" y="0" width="1280" height="813" />
-    </state>
-    <state x="297" y="184" key="run.anything.popup/0.0.1280.813@0.0.1280.813" timestamp="1609984032346" />
+    <state x="617" y="191" key="run.anything.popup/0.0.1280.813@0.0.1280.813" timestamp="1627054597453" />
   </component>
 </project>

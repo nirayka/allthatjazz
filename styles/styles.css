@@ -43,7 +43,7 @@ p, a, ol, ul, table {
   font-size: medium;
   font-weight: 400;
   font-size: 100%
-  color: #0B1C20;
+  color: #24191A;
 }
 div {
     margin-left: 10%;
@@ -69,8 +69,8 @@ button {
   background-color: #B1CAA6;
   padding: 2px 6px 2px 6px;
   border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #366147;
-  border-bottom: 1px solid #366147;
+  border-right: 1px solid #84AB73;
+  border-bottom: 1px solid #84AB73;
   border-left: 1px solid #CCCCCC;
   font-family: 'Rajdhani', sans-serif;
   font-size: 17px;
@@ -92,14 +92,15 @@ button {
 }
 
 a:hover {
-  color: #297575;
+  color: #F1F6EF;
 }
 .currentPage:hover {
-    color: #C8DDDD;
+    color: #F1F6EF;
 }
 
 p + ul, p + ol {
   list-style-position: inside;
+  color: #24191A;
 }
 
 .leadSheet {
@@ -121,9 +122,10 @@ th {
 table {
     margin-left: auto;
     margin-right: auto;
+    bordercolor: white;
 }
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid #493335;
   border-collapse: collapse;
 }
 
@@ -148,4 +150,52 @@ table, th, td {
 footer {
     color: #366147;
     text-align: center;
+}
+
+input[type='radio']:after {
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+    top: -0.9px;
+    left: -0.45px;
+    position: relative;
+    background-color: #D2C5AC;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #F9F6F1;
+    transition:all ease-in 0.2s;
+}
+
+input[type='radio']:checked:after {
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+    top: -0.9px;
+    left: -0.45px;
+    position: relative;
+    background-color: #72645A;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+#getUserParameters {
+    text-decoration: none;
+    background-color: #D2C5AC;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #E2DACA;
+    border-right: 1px solid #C6B595;
+    border-bottom: 1px solid #C6B595;
+    border-left: 1px solid #E2DACA;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: large;
+    margin: 2%;
+    color: #534445;
+}
+
+#getUserParameters:hover {
+    cursor: pointer;
+    color: white;
 }
