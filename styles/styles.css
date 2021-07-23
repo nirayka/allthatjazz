@@ -22,18 +22,19 @@ html, body {
   text align: center;
 }
 h1 {
-  color: #366147;
+  color: #382E2F;
   font-family: 'jazztextregular';
   font-size: 500%;
 }
+
 h2 {
-  color: #2F282F;
+  color: #433738;
   font-family: 'Rajdhani', sans-serif;
   font-size: 300%;
   font-weight: 700;
 }
 h3 {
-  color: #416650;
+  color: #4B3E3F;
   font-family: 'Rajdhani', sans-serif;
   font-size: 150%;
   font-weight: 700;
@@ -52,35 +53,42 @@ div {
 
 button {
   text-decoration: none;
-  background-color: #B1CAA6;
+  background-color: #D2C5AC;
   padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #366147;
-  border-bottom: 1px solid #366147;
-  border-left: 1px solid #CCCCCC;
+  border-top: 1px solid #E2DACA;
+  border-right: 1px solid #C6B595;
+  border-bottom: 1px solid #C6B595;
+  border-left: 1px solid #E2DACA;
   font-family: 'Rajdhani', sans-serif;
   font-size: large;
   margin: 2%;
+  color: #382E2F;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
 }
 
 .navigationButton {
-  text-decoration: none;
-  color: #366147;
-  background-color: #B1CAA6;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #84AB73;
-  border-bottom: 1px solid #84AB73;
-  border-left: 1px solid #CCCCCC;
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 17px;
-  margin: 5%;
+    text-decoration: none;
+    color: #382E2F;
+    background-color: #D2C5AC;
+    border-top: 1px solid #E2DACA;
+    border-right: 1px solid #C6B595;
+    border-bottom: 1px solid #C6B595;
+    border-left: 1px solid #E2DACA;
+    padding: 4px 8px 4px 8px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+    margin: 5%;
+    border-radius: 15px;
 }
 
 .currentPage {
   text-decoration: none;
-  background-color: #366147;
-  color: #B1CAA6;
+  background-color: #382E2F;
+  color: #D2C5AC;
   padding: 2px 6px 2px 6px;
   border-top: 1px solid #366147;
   border-right: 1px solid #CCCCCC;
@@ -93,9 +101,6 @@ button {
 
 a:hover {
   color: #F1F6EF;
-}
-.currentPage:hover {
-    color: #F1F6EF;
 }
 
 p + ul, p + ol {
@@ -137,16 +142,6 @@ table, th, td {
   flex: 50%;
 }
 
-#aboutMe {
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-#aboutMePhoto {
-    width: 100%;
-    height: auto;
-}
-
 footer {
     color: #366147;
     text-align: center;
@@ -179,23 +174,4 @@ input[type='radio']:checked:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
-}
-
-#getUserParameters {
-    text-decoration: none;
-    background-color: #D2C5AC;
-    padding: 2px 6px 2px 6px;
-    border-top: 1px solid #E2DACA;
-    border-right: 1px solid #C6B595;
-    border-bottom: 1px solid #C6B595;
-    border-left: 1px solid #E2DACA;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: large;
-    margin: 2%;
-    color: #534445;
-}
-
-#getUserParameters:hover {
-    cursor: pointer;
-    color: white;
 }
