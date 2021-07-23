@@ -10,12 +10,30 @@
 </head>
 
 <body>
-<div>
-    <br>
-    <a href="index.html" class="navigationButton">HOME</a>
-    <a href="app.html" class="navigationButton">APP</a>
-    <a href="contribute.html" class="navigationButton currentPage">CONTRIBUTE</a>
-    <a href="about.html" class="navigationButton">ABOUT</a>
+<div class="row">
+    <div class="column">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input name="toggle" type="checkbox" />
+                <label for="toggle">
+                    <span>menu</span>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+
+                <ul id="menu">
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="app.html"><li>APP</li></a>
+                    <a href="contribute.html"><li>CONTRIBUTE</li></a>
+                    <a href="about.html"><li>ABOUT</li></a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="column">
+        <h1 id="logo">The Jazz Collective</h1>
+    </div>
 </div>
 
 
