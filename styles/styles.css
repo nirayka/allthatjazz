@@ -145,13 +145,7 @@ table, th, td {
     height: auto;
 }
 
-.footer {
-    background-color: #2D4E3A;
-    margin: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
+footer {
+    color: #366147;
     text-align: center;
 }
