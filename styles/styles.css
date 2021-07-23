@@ -143,8 +143,19 @@ table, th, td {
 }
 
 footer {
-    color: #366147;
+    color: #4B3E3F;
     text-align: center;
+    margin: 3%
+}
+
+footer a {
+    color: #4B3E3F;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #856F70;
+    text-decoration: none;
 }
 
 input[type='radio']:after {
