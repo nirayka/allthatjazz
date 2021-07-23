@@ -46,7 +46,7 @@ p, a, ol, ul, table {
   font-family: 'Quicksand', sans-serif;
   font-size: medium;
   font-weight: 400;
-  font-size: 100%
+  font-size: 21px;
   color: #24191A;
 }
 
@@ -131,11 +131,11 @@ footer a:hover {
 }
 
 input[type='radio']:after {
-    width: 9px;
-    height: 9px;
-    border-radius: 9px;
-    top: -0.9px;
-    left: -0.45px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: -0.10px;
+    left: -0.5px;
     position: relative;
     color: #24191A;
     background-color: #D2C5AC;
@@ -228,7 +228,7 @@ body {
   height: 2px;
   margin-bottom: 6px;
   position: relative;
-  background: #382e2f;
+  background: #254130;
   border-radius: 3px;
   z-index: 1;
   -webkit-transform-origin: 4px 0px;
@@ -267,7 +267,7 @@ body {
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: #382e2f;
+  background: #254130;
   list-style-type: none;
   /* Hide the menu off-screen to the left */
   left: -100%;
@@ -303,5 +303,6 @@ body {
 #logo {
    font-size: 400%;
    font-family: 'jazztextregular';
+   color: #254130;
    padding: 15px 10px 15px 15px;
 }
