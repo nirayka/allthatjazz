@@ -37,7 +37,7 @@ h2 {
   margin: 3%;
 }
 h3 {
-  color: #4B3E3F;
+  color: #2C4E3A;
   font-family: 'Rajdhani', sans-serif;
   font-size: 150%;
   font-weight: 700;
@@ -206,7 +206,7 @@ input[type='radio']:checked:after {
 
 .header .logo {
     font-family: 'jazztextregular';
-    color: #fff;
+    color: #F1F6EF;
     display: block;
     float: left;
     font-size: 1.7em;
@@ -232,7 +232,7 @@ input[type='radio']:checked:after {
 }
 
 .header .menu-icon .navicon {
-  background: #fff;
+  background: #F1F6EF;
   display: block;
   height: 2px;
   position: relative;
@@ -242,7 +242,7 @@ input[type='radio']:checked:after {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #fff;
+  background: #F1F6EF;
   content: '';
   display: block;
   height: 100%;
@@ -311,7 +311,7 @@ input[type='radio']:checked:after {
         line-height: 1;
     }
   .header li a {
-    color: #fff;
+    color: #F1F6EF;
     padding: 0px 30px;
     border-right: 1px solid rgba(255, 255, 255, 0.2);
 
