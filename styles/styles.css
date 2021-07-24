@@ -25,28 +25,29 @@ html, body {
 h1 {
   color: #24191B;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 500%;
-  margin: 0.5%
+  font-size: 7vw;
+  margin: 0.5%;
+  font-weight: 700;
 }
 
 h2 {
   color: #2C4E3A;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 225%;
-  font-weight: 700;
+  font-size: 3.2vw;
+  font-weight: 600;
   margin: 0.75%;
 }
 h3 {
     color: #302124;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 140%;
-    font-weight: 700;
+    font-size: 2.5vw;
+    font-weight: 500;
     margin: 0.75%
 }
 p, a, ol, ul, table {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  font-size: 115%;
+  font-size: 1.5vw;
   color: #302123;
 }
 
@@ -332,6 +333,7 @@ input[type='radio']:checked:after {
 
 .navbutton {
     font-family: 'Rajdhani', sans-serif;
+    font-size: 2 vw;
     color: #F9F6F1;
 }
 
