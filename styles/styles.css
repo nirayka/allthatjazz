@@ -205,7 +205,7 @@ input[type='radio']:checked:after {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #3F5E4C;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .header .logo {
@@ -342,5 +342,5 @@ input[type='radio']:checked:after {
 }
 
 #currentPage {
-    background-color: #274634;
+    background-color: rgba(0, 0, 0, 0.25);
 }
