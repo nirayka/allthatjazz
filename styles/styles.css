@@ -27,6 +27,8 @@ h1 {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 700;
   margin: 0.5%;
+  margin-left: 12px;
+  margin-right: 12px;
   font-size: 100px;
 }
 
@@ -35,6 +37,8 @@ h2 {
   font-family: 'Rajdhani', sans-serif;
   font-weight: normal;
   margin: 0.75%;
+  margin-left: 12px;
+  margin-right: 12px;
   font-size: 42px;
 }
 h3 {
@@ -42,6 +46,8 @@ h3 {
     font-family: 'Rajdhani', sans-serif;
     font-weight: normal;
     margin: 0.75%;
+    margin-left: 12px;
+    margin-right: 12px;
     font-size: 32px;
 }
 p, a, ol, ul, table {
