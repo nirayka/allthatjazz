@@ -61,9 +61,9 @@ $(document).ready(function(){
              $(parametersString).show()
 
              if ($('.leadSheet:visible').length) {
-                 $("#printIfMusicAvailable").html("All of the lead sheets below fall within these parameters.");
+                 $("#printIfMusicAvailable").html("All of the lead sheets below fall within these parameters. \nIf you'd like to download and print any of these lead sheets, right click and select 'Save Image.'");
              } else {
-                 $("#printIfMusicAvailable").html("Sorry, we couldn't find any lead sheets that fall within these parameters.") // reach out to us here if u have anything to contribute
+                 $("#printIfMusicAvailable").html("Sorry, we couldn't find any lead sheets that fall within these parameters. If you think there's a standard that should be here, please visit the Contribute page and let us know!");
              }
         }
 

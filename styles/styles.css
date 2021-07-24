@@ -23,34 +23,37 @@ html, body {
 }
 
 h1 {
-  color: #382E2F;
+  color: #24191B;
   font-family: 'Rajdhani', sans-serif;
   font-size: 500%;
   margin: 0.5%
 }
 
 h2 {
-  color: #433738;
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 300%;
-  font-weight: 700;
-  margin: 3%;
-}
-h3 {
   color: #2C4E3A;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 150%;
+  font-size: 225%;
   font-weight: 700;
-  margin: 3%;
+  margin: 0.75%;
+}
+h3 {
+    color: #302124;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 140%;
+    font-weight: 700;
+    margin: 0.75%
 }
 p, a, ol, ul, table {
   font-family: 'Quicksand', sans-serif;
-  font-size: medium;
   font-weight: 400;
-  font-size: 21px;
-  color: #24191A;
+  font-size: 115%;
+  color: #302123;
 }
 
+p {
+    margin-left: 8%;
+    margin-right: 8%;f
+}
 
 button {
   text-decoration: none;
@@ -101,14 +104,15 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
-table, td {
-  border: 1px solid #493335;
-  border-collapse: collapse;
+table, td, tr {
+  border: 1.2px solid #302123;
+  border-collapse: separate;
 }
 
 th, td {
     padding: 15px;
 }
+
 
 .row {
   display: flex;
@@ -328,5 +332,10 @@ input[type='radio']:checked:after {
 
 .navbutton {
     font-family: 'Rajdhani', sans-serif;
-    color: #382E2F;
+    color: #F9F6F1;
+}
+
+#printIfMusicAvailable {
+    font-size: 130%;
+    color: black;
 }
