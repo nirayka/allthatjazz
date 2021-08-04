@@ -95,12 +95,7 @@ p + ul, p + ol {
     display: none;
 }
 
-#allLeadSheets img {
-    width: 90%;
-    height: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
+
 
 th {
     font-weight: normal;
@@ -305,6 +300,13 @@ input[type='radio']:checked:after {
     padding: 15px;
     border-bottom: 1px dotted #ddd;
 
+    #allLeadSheets img {
+        width: 90%;
+        height: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
   }
 }
 
@@ -334,6 +336,13 @@ input[type='radio']:checked:after {
   }
   .header .menu-icon {
     display: none;
+  }
+
+  #allLeadSheets img {
+      width: 500px;
+      height: 650px;
+      margin-top: 2%;
+      margin-bottom: 2%;
   }
 }
 
