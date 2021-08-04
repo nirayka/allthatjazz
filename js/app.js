@@ -66,7 +66,12 @@ $(document).ready(function() {
         function isMusicAvailable() {
             resultCount = $('.leadSheet:visible').length
             if ($('.leadSheet:visible').length) {
-                $("#printIfMusicAvailable").html("There are " + resultCount + " lead sheets that fall within these parameters. If you'd like to download any of these, right click on your desired lead sheet and select 'Save Image.' If you think there's a standard that should be here but isn't, please visit the Contribute page and let us know!");
+                if (resultCount == 1) {
+                    $("#printIfMusicAvailable").html("There is 1 lead sheet that falls within these parameters.");
+                } else {
+                    $("#printIfMusicAvailable").html("There are " + resultCount + " lead sheets that fall within these parameters.");
+                }
+                $("#contributeInfo").html("If you'd like to download a lead sheet, right click on your desired one and select 'Save Image.' If you think there's a standard that should be here but isn't, please visit the Contribute page and let us know!")
             } else {
                 $("#printIfMusicAvailable").html("Sorry, we couldn't find any lead sheets that fall within these parameters. If you think there's a standard that should be here, please visit the Contribute page and let us know!");
             }

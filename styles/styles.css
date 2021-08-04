@@ -359,6 +359,12 @@ input[type='radio']:checked:after {
     font-weight: bold;
 }
 
+#contributeInfo {
+    font-size: 130%;
+    color: #181112;
+    font-style: italic;
+}
+
 #currentPage {
     background-color: rgba(0, 0, 0, 0.25);
 }
