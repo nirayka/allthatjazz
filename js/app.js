@@ -7,13 +7,7 @@ $(document).ready(function() {
 
         printUserSelectedParameters(genreValue, tempoValue, keyValue, timeSignatureValue);
         showSelectedLeadSheets(genreValue, tempoValue, keyValue, timeSignatureValue);
-
-        if ($('.leadSheet:visible').length) {
-            $("#printIfMusicAvailable").html("All of the lead sheets below fall within these parameters. If you'd like to download any of these, right click on your desired lead sheet and select 'Save Image.'");
-        } else {
-            $("#printIfMusicAvailable").html("Sorry, we couldn't find any lead sheets that fall within these parameters. If you think there's a standard that should be here, please visit the Contribute page and let us know!");
-        }
-
+        isMusicAvailable();
         clearAllSelections();
 
         function printUserSelectedParameters(genreValue, tempoValue, keyValue, timeSignatureValue) {
@@ -66,9 +60,16 @@ $(document).ready(function() {
                      parametersString += "." + timeSignatureValue
                  }
              }
-
              $(parametersString).show()
         }
 
+        function isMusicAvailable() {
+            resultCount = $('.leadSheet:visible').length
+            if ($('.leadSheet:visible').length) {
+                $("#printIfMusicAvailable").html("There are " + resultCount + " lead sheets that fall within these parameters. If you'd like to download any of these, right click on your desired lead sheet and select 'Save Image.' If you think there's a standard that should be here but isn't, please visit the Contribute page and let us know!");
+            } else {
+                $("#printIfMusicAvailable").html("Sorry, we couldn't find any lead sheets that fall within these parameters. If you think there's a standard that should be here, please visit the Contribute page and let us know!");
+            }
+        }
     })
 })
