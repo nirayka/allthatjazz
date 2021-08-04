@@ -5,16 +5,22 @@ $(document).ready(function() {
         var keyValue = $('input[name="key"]:checked').val();
         var timeSignatureValue = $('input[name="timeSignature"]:checked').val();
 
-        printUserSelectedParameters(genreValue, tempoValue, keyValue, timeSignatureValue);
-        showSelectedLeadSheets(genreValue, tempoValue, keyValue, timeSignatureValue);
-
-        if ($('.leadSheet:visible').length) {
-            $("#printIfMusicAvailable").html("All of the lead sheets below fall within these parameters. If you'd like to download any of these, right click on your desired lead sheet and select 'Save Image.'");
+        if ((!$("input[name='genre']:checked").val()) || (!$("input[name='tempo']:checked").val()) || (!$("input[name='key']:checked").val()) || (!$("input[name='timeSignature']:checked").val())) {
+            $(".leadSheet").hide()
+            $("#printIfMusicAvailable").hide()
+            $("#printUserSelectedParameters").html("Please select at least exactly option per category.");
         } else {
-            $("#printIfMusicAvailable").html("Sorry, we couldn't find any lead sheets that fall within these parameters. If you think there's a standard that should be here, please visit the Contribute page and let us know!");
-        }
+            printUserSelectedParameters(genreValue, tempoValue, keyValue, timeSignatureValue);
+            showSelectedLeadSheets(genreValue, tempoValue, keyValue, timeSignatureValue);
 
-        clearAllSelections();
+            if ($('.leadSheet:visible').length) {
+                $("#printIfMusicAvailable").html("All of the lead sheets below fall within these parameters. If you'd like to download any of these, right click on your desired lead sheet and select 'Save Image.'");
+            } else {
+                $("#printIfMusicAvailable").html("Sorry, we couldn't find any lead sheets that fall within these parameters. If you think there's a standard that should be here, please visit the Contribute page and let us know!");
+            }
+
+            clearAllSelections();
+        }
 
         function printUserSelectedParameters(genreValue, tempoValue, keyValue, timeSignatureValue) {
             var printTempo = tempoValue
@@ -69,6 +75,7 @@ $(document).ready(function() {
 
              $(parametersString).show()
         }
+
 
     })
 })

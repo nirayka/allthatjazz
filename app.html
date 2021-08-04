@@ -20,7 +20,7 @@
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
             <li><a class="navbutton" href="index.html">HOME</a></li>
-            <li><a class="navbutton" id="currentPage" href="app.html">APP</a></li>
+            <li><a class="navbutton" id="currentPage" href="app.html">WEB APP</a></li>
             <li><a class="navbutton" href="contribute.html">CONTRIBUTE</a></li>
             <li><a class="navbutton" href="about.html">ABOUT</a></li>
         </ul>
@@ -32,7 +32,7 @@
 <div><br><br><br><br>
     <header>
         <h1>WEB APP</h1>
-        <h3><em>Please select your desired choice for each category and then hit submit.<br>You must select exactly one choice per category.</em></h3>
+        <h3><em>Please select your desired choice for each category and then hit submit.</em></h3>
     </header>
 </div>
 
@@ -47,11 +47,11 @@
             <td class="title">Genre</td>
             <td>
                 <form id="genreForm">
-                    <input type="radio" name="genre" value="All">All
+                    <input type="radio" name="genre" value="All" checked>All
                     <input type="radio" name="genre" value="Ballad">Ballad
                     <input type="radio" name="genre" value="Bop">Bop
                     <input type="radio" name="genre" value="Blues">Blues
-                    <input type="radio" name="genre" value="Latin">Afro/Latin/Bossa
+                    <input type="radio" name="genre" value="AfroLatinBossa">Afro/Latin/Bossa
                     <input type="radio" name="genre" value="Swing">Swing
                     <input type="radio" name="genre" value="Other">Other
                 </form>
@@ -61,7 +61,7 @@
             <td class="title">Tempo</td>
             <td>
                 <form id="tempoForm">
-                    <input type="radio" name="tempo" value="All">All
+                    <input type="radio" name="tempo" value="All" checked>All
                     <input type="radio" name="tempo" value="Slow">Slow
                     <input type="radio" name="tempo" value="Medium">Medium
                     <input type="radio" name="tempo" value="Uptempo">Uptempo
@@ -72,7 +72,7 @@
             <td class="title">Key (if minor, select corresponding major key)</td>
             <td>
                 <form id="keyForm">
-                    <input type="radio" name="key" value="All">All
+                    <input type="radio" name="key" value="All" checked>All
                     <br>
                     <input type="radio" name="key" value="C">C
                     <input type="radio" name="key" value="G">G
@@ -90,7 +90,7 @@
             <td class="title">Time Signature</td>
             <td>
                 <form id="timeSignature">
-                    <input type="radio" name="timeSignature" value="All">All
+                    <input type="radio" name="timeSignature" value="All" checked>All
                     <input type="radio" name="timeSignature" value="4over4">4/4
                     <input type="radio" name="timeSignature" value="3over4">3/4
                     <input type="radio" name="timeSignature" value="6over8">6/8
@@ -103,7 +103,6 @@
     <button id="getUserParameters">Submit</button>
     <p id="printUserSelectedParameters"></p>
     <p id="printIfMusicAvailable"></p>
-    <p id="demo3"></p>
     </div>
 
 
@@ -120,7 +119,7 @@
         <img class="leadSheet Ballad Medium Aflat 4over4" src="images/allTheThingsYouAre.jpg">
         <img class="leadSheet Ballad Slow Eflat 4over4" src="images/allTheWay.jpg">
         <img class="leadSheet Blues Slow Eflat 4over4" src="images/angelEyes.jpg">
-        <img class="leadSheet Latin Medium F 4over4" src="images/aNightInTunisia.jpg">
+        <img class="leadSheet AfroLatinBossa Medium F 4over4" src="images/aNightInTunisia.jpg">
         <img class="leadSheet Bop Uptempo Bflat 4over4" src="images/anthropology.jpg">
         <img class="leadSheet Other Medium C 4over4" src="images/aprilJoy.jpg">
         <img class="leadSheet Swing Medium F 4over4" src="images/arentYouGladYoureYou.jpg">
@@ -130,20 +129,20 @@
         <img class="leadSheet Bop Uptempo F 4over4" src="images/auPrivave.jpg">
         <img class="leadSheet Swing Medium F 4over4" src="images/autumnInNewYork.jpg">
         <img class="leadSheet Swing Medium G 4over4" src="images/autumnLeaves.jpg">
-        <img class="leadSheet Bop Uptempo C 4over4" src="images/billiesBounce.jpg">
-        <img class="leadSheet Latin Slow C 4over4" src="images/blackOrpheus.jpg">
-        <img class="leadSheet Latin Medium Eflat 4over4" src="images/blueBossa.jpg">
+        <img class="leadSheet Blues Uptempo C 4over4" src="images/billiesBounce.jpg">
+        <img class="leadSheet AfroLatinBossa Slow C 4over4" src="images/blackOrpheus.jpg">
+        <img class="leadSheet AfroLatinBossa Medium Eflat 4over4" src="images/blueBossa.jpg">
         <img class="leadSheet Ballad Slow C 4over4" src="images/blueInGreen.jpg">
         <img class="leadSheet Blues Medium Bflat 4over4" src="images/blueMonk.jpg">
         <img class="leadSheet Blues Uptempo F 4over4" src="images/bluesForAlice.jpg">
         <img class="leadSheet Bop Medium F 4over4" src="images/boplicity.jpg">
         <img class="leadSheet Ballad Slow F 4over4" src="images/butNotForMe.jpg">
-        <img class="leadSheet Latin Medium Aflat 4over4" src="images/caravan.jpg">
+        <img class="leadSheet AfroLatinBossa Medium Aflat 4over4" src="images/caravan.jpg">
         <img class="leadSheet Bop Uptempo F 4over4" src="images/confirmation.jpg">
-        <img class="leadSheet Latin Medium C 4over4" src="images/corvocado.jpg">
+        <img class="leadSheet AfroLatinBossa Medium C 4over4" src="images/corvocado.jpg">
         <img class="leadSheet Ballad Slow F 4over4" src="images/daysOfWineAndRoses.jpg">
         <img class="leadSheet Swing Medium F 4over4" src="images/dearOldStockholm.jpg">
-        <img class="leadSheet Latin Medium F 4over4" src="images/desafinado.jpg">
+        <img class="leadSheet AfroLatinBossa Medium F 4over4" src="images/desafinado.jpg">
         <img class="leadSheet Bop Uptempo Aflat 4over4" src="images/donnaLee.jpg">
         <img class="leadSheet Ballad Slow C 4over4" src="images/easyToLove.jpg">
         <img class="leadSheet Ballad Slow G 4over4" src="images/embraceableYou.jpg">
@@ -151,7 +150,7 @@
         <img class="leadSheet Swing Medium Eflat 4over4" src="images/four.jpg">
         <img class="leadSheet Blues Medium C 4over4" src="images/freddieTheFreeloader.jpg">
         <img class="leadSheet Bop Uptempo C 4over4" src="images/giantSteps.jpg">
-        <img class="leadSheet Latin Medium F 4over4" src="images/girlFromIpanema.jpg">
+        <img class="leadSheet AfroLatinBossa Medium F 4over4" src="images/girlFromIpanema.jpg">
         <img class="leadSheet Swing Medium C 4over4" src="images/gloriasStep.jpg">
         <img class="leadSheet Swing Medium F 4over4" src="images/heartAndSoul.jpg">
         <img class="leadSheet Bop Uptempo G 4over4" src="images/howHighTheMoon.jpg">
@@ -185,7 +184,7 @@
         <img class="leadSheet Bebop Medium G 4over4" src="images/ornithology.jpg">
         <img class="leadSheet Swing Medium G 4over4" src="images/outOfNowhere.jpg">
         <img class="leadSheet Ballad Medium G 4over4" src="images/polkaDotsAndMoonbeams.jpg">
-        <img class="leadSheet Latin Medium C 4over4" src="images/recordaMe.jpg">
+        <img class="leadSheet AfroLatinBossa Medium C 4over4" src="images/recordaMe.jpg">
         <img class="leadSheet Ballad Slow Gflat 4over4" src="images/roundMidnight.jpg">
         <img class="leadSheet Swing Medium C 4over4" src="images/satinDoll.jpg">
         <img class="leadSheet Swing Medium C 3over4" src="images/skatingInCentralPark.jpg">
