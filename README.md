@@ -25,6 +25,6 @@ Project Link: [https://github.com/nirayka/allthatjazz](https://github.com/nirayk
 
 ## Acknowledgements
 * My CS teacher of a year and a half (or is it two thirds?), Mr. Ryan Wilson.
-* [Correa Nicolás]()
+* [Correa Nicolás](https://doku.pub/documents/the-real-book-1-6th-ed-hal-leonardpdf-yl4wmjv6r9qr) for making this music available to the public.
 * [CodeConvey](https://codeconvey.com/)
 * [W3 Schools](https://www.w3schools.com/)
