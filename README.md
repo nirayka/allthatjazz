@@ -1,5 +1,5 @@
 ## About The Project
-_All That Jazz_ is an app built out of necessity, to be frank. Carrying around and navigating a 462-page 3-lb book is not any musician's idea of fun. If you'd like a more in-depth description, read [this](https://nirayka.github.io/allthatjazz/about.html).
+_All That Jazz_ is an app built out of necessity, to be frank. Carrying around and navigating a 3-lb 462-page book is not any musician's idea of fun. If you'd like a more in-depth description, read [this](https://nirayka.github.io/allthatjazz/about.html).
 
 ### Built With
 The meat and potatoes of the site are of course HTML and CSS. The web app uses [JavaScript](https://javascript.com) in conjunction with [JQuery](https://jquery.com).
@@ -25,5 +25,6 @@ Project Link: [https://github.com/nirayka/allthatjazz](https://github.com/nirayk
 
 ## Acknowledgements
 * My CS teacher of a year and a half (or is it two thirds?), Mr. Ryan Wilson.
+* [Correa Nicolás]()
 * [CodeConvey](https://codeconvey.com/)
 * [W3 Schools](https://www.w3schools.com/)
