@@ -294,20 +294,21 @@ input[type='radio']:checked:after {
 }
 
 @media only screen and (max-width: 768px){
-    .header ul {
+    .header ul{
         background-color: #F9F6F1;
     }
+
     .header li a {
         padding: 15px;
-        border-bottom: 1px dotted #ddd;
+        border-bottom: 1px  #ddd;
     }
+
     #allLeadSheets img {
         max-width: 92%;
         height: auto;
         margin-top: 2%;
         margin-bottom: 2%;
     }
-  }
 }
 
 @media only screen and (min-width: 768px) {
