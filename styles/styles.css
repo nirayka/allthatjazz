@@ -294,15 +294,15 @@ input[type='radio']:checked:after {
 }
 
 @media only screen and (max-width: 768px){
-    .header ul{
+    .header ul {
         background-color: #F9F6F1;
     }
     .header li a {
-    padding: 15px;
-    border-bottom: 1px dotted #ddd;
-
+        padding: 15px;
+        border-bottom: 1px dotted #ddd;
+    }
     #allLeadSheets img {
-        max-width: 100%;
+        max-width: 92%;
         height: auto;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -337,6 +337,7 @@ input[type='radio']:checked:after {
   .header .menu-icon {
     display: none;
   }
+
 
   #allLeadSheets img {
       width: 500px;
