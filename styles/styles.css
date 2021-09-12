@@ -60,7 +60,7 @@ p, a, ol, ul, table {
 
 p {
     margin-left: 8%;
-    margin-right: 8%;f
+    margin-right: 8%;
 }
 
 button {
@@ -125,7 +125,7 @@ th, td {
 }
 
 a {
-    color: #382E2F;
+    color: #3B684E;
     text-decoration: none;
 }
 
@@ -395,4 +395,8 @@ input[type='radio']:checked:after {
 
 #contribute {
     font-size: 85px;
+}
+
+#tiny {
+    font-size: 17px;
 }
