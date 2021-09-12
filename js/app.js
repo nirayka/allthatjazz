@@ -71,7 +71,7 @@ $(document).ready(function() {
                 } else {
                     $("#printIfMusicAvailable").html("There are " + resultCount + " lead sheets that fall within these parameters.");
                 }
-                $("#contributeInfo").html("If you'd like to download a lead sheet, right click on your desired one and select 'Save Image.' If you think there's a standard that should be here but isn't, please visit the Contribute page and let me know!")
+                $("#contributeInfo").html("If you'd like to download a lead sheet, right click on the desired sheet and select 'Save Image.' If you think there's a standard that should be here but isn't, please visit the Contribute page and let me know!")
             } else {
                 $("#printIfMusicAvailable").html("Sorry, we couldn't find any lead sheets that fall within these parameters. If you think there's a standard that should be here, please visit the Contribute page and let me know!");
             }

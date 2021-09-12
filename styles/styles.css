@@ -82,10 +82,6 @@ button:hover {
     color: #F9F6F1;
 }
 
-a:hover {
-  color: #F9F6F1;
-}
-
 p + ul, p + ol {
   list-style-position: inside;
   color: #24191A;
@@ -127,6 +123,10 @@ th, td {
 a {
     color: #3B684E;
     text-decoration: none;
+}
+
+a:hover {
+    color: #9BAD71;
 }
 
 footer {
