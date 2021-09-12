@@ -40,7 +40,7 @@ h2 {
   margin: 0.75%;
   margin-left: 12px;
   margin-right: 12px;
-  font-size: 42px;
+  font-size: 50px;
 }
 h3 {
     color: #302124;
@@ -398,5 +398,5 @@ input[type='radio']:checked:after {
 }
 
 #tiny {
-    font-size: 17px;
+    font-size: 19px;
 }
