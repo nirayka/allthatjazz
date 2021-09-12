@@ -55,7 +55,7 @@ p, a, ol, ul, table {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   color: #302123;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 p {
@@ -75,7 +75,6 @@ button {
   margin: 2%;
   color: #382E2F;
   padding: 5px 9px 5px 9px;
-
 }
 
 button:hover {
@@ -123,6 +122,11 @@ th, td {
 
 .column {
   flex: 50%;
+}
+
+a {
+    color: #382E2F;
+    text-decoration: none;
 }
 
 footer {
@@ -368,4 +372,27 @@ input[type='radio']:checked:after {
 
 #currentPage {
     background-color: rgba(0, 0, 0, 0.25);
+}
+
+#newButton {
+  text-decoration: none;
+  background-color: #D2C5AC;
+  border-top: 1px solid #E2DACA;
+  border-right: 1px solid #C6B595;
+  border-bottom: 1px solid #C6B595;
+  border-left: 1px solid #E2DACA;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 24px;
+  margin: 2%;
+  color: #382E2F;
+  padding: 5px 9px 5px 9px;
+}
+
+#newButton:hover {
+    cursor: pointer;
+    color: #F9F6F1;
+}
+
+#contribute {
+    font-size: 100px;
 }
