@@ -11,7 +11,7 @@ Just visit [All That Jazz](https://nirayka.github.io/allthatjazz/app.html) to ma
 ## Contributing
 
 If you'd like to contribute something to the jazz archive, please [click here](https://nirayka.github.io/allthatjazz/contribute.html).
-If you'd like to contribute something to the project, please contact me using the information below, because honestly I'm not _that_ well-versed in dealing with pull requests.
+If you'd like to contribute something to the project, please contact me using the information below.
 
 
 
